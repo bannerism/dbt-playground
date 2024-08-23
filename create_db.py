@@ -1,7 +1,7 @@
 import duckdb
 import pandas as pd
 
-DATABASE='data/_nyc_parking_violations.db'
+DATABASE='data/eurocup.db'
 
 def get_query(sql_location):
    """read the contents of the sql file"""
